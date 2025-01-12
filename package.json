@@ -55,11 +55,11 @@
         }
     },
     "engines": {
-        "node": "23.3.0"
+        "node": "23.5.0"
     },
     "dependencies": {
         "@0glabs/0g-ts-sdk": "0.2.1",
-        "@coinbase/coinbase-sdk": "0.10.0",
+        "@coinbase/coinbase-sdk": "^1.0.0",
         "@deepgram/sdk": "^3.9.0",
         "@vitest/eslint-plugin": "1.0.1",
         "amqplib": "0.10.5",
@@ -67,10 +67,10 @@
         "ollama-ai-provider": "0.16.1",
         "optional": "0.1.4",
         "pnpm": "9.14.4",
-        "sharp": "0.33.5",
+        "sharp": "^0.33.2",
         "tslog": "4.9.3"
     },
-    "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+    "packageManager": "pnpm@9.14.0",
     "workspaces": [
         "packages/*"
     ]

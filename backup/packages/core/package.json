@@ -1,0 +1,28 @@
+{
+  "name": "@elizaos/core",
+  "version": "0.1.7-alpha.2",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf .turbo node_modules dist",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@elizaos/types": "workspace:*",
+    "better-sqlite3": "11.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/uuid": "^9.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.3"
+  }
+}
